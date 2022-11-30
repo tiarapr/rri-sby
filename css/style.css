@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css?family=Inter&display=swap');
+
+body {
+    margin: auto;
+    /* background: red; */
+}
+
+.rri {
+    /* background-color: grey; */
+}
+
+/* NAV LOGO */
+.nav-logo {
+    padding: 20px;
+    background-color: #FFFFFF;
+}
+
+.logo {
+    height: 39px;
+    width: 124px;
+    left: 108px;
+    top: 34px;
+    border-radius: 0px;
+}
+
+.box-jaringan {
+    height: 39px;
+    width: 340px;
+    left: 1000px;
+    top: 34px;
+    border-radius: 10px;
+    box-shadow: 5px 4px 4px 0px #00000040;
+    border: 1px solid #C8B8B8;
+}
+
+.txt-sby {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+    padding: 10px;
+}
+
+.txt-jrg {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #0500FF;
+    padding: 10px;
+    text-align: right;
+}
+
+/* END NAV LOGO */
+
+/* NAV DARK BLUE */
+.nav-darkBlue {
+    height: 53px;
+    background: #0300A2;
+}
+
+.nav-menu {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+    margin-right: 55px;
+}
+
+.nav-menu:hover {
+    color: #FFFFFF;
+}
+
+/* END NAV DARK BLUE */
+
+/* NAV SOFT BLUE */
+.nav-softBlue {
+    height: 53px;
+    background: #579AFF;
+}
+
+.nav-menu2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+    margin-right: 30px;
+}
+
+/* END NAV SOFT BLUE */
+
+/* RRI LOGO CHANNEL */
+.rri-channel {
+    padding: 20px 10px;
+}
+
+.stream,
+.net,
+.sinar,
+.music {
+    height: 60px;
+}
+
+/* END RRI LOGO CHANNEL */
+
+/* BANNER */
+.banner {
+    width: 1240px;
+    height: 430px;
+    margin: 10px;
+    /* Berfungsi untuk memberi background warna dan menampilkan background gambar tidak berulang dan berada diposisi kanan bawah */
+    background: #e1e1e5 url('../assets/images/Beritaa Utama.png') no-repeat bottom right;
+}
+
+.text {
+    position: absolute;
+    bottom: 0;
+    margin: 50px 0px;
+}
+
+.headline {
+    width: 106px;
+    height: 26px;
+    padding: 5px;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #F5F5F5;
+    background-color: #0500FF;
+}
+
+.box-title {
+    position: absolute;
+    height: 24px;
+    width: 1240px;
+    background-color: #FFFFFF;
+    padding: 0 5px;
+}
+
+.title {
+    padding: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+    text-align: start;
+    display: inline;
+}
+
+/* END BANNER */
+
+/* LIST ARTICLE */
+.list-article {
+    width: 1240px;
+    margin: 10px;
+}
+
+.article {
+    padding-bottom: 15px;
+}
+
+.image-article {
+    width: 187px;
+    height: 86px;
+}
+
+.title-article {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+}
+
+.datetime {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #C2C2C2;
+}
+
+.prev {
+    width: 187px;
+    height: 30px;
+    padding: 7px 10px;
+    background: #D9D9D9;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: justify;
+    color: #0300A2;
+    margin: 5px 0;
+}
+
+.infografis {
+    padding-bottom: 30px;
+}
+
+.img-info {
+    height: 115px;
+}
+
+/* END LIST ARTICLE */
+
+/* FOOTER */
+footer {
+    height: 360px;
+    background: #0500FF;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.list {
+    padding: 60px 70px 50px 70px;
+    color: #FFFFFF;
+}
+
+.title-list {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+    padding: 10px 0;
+}
+
+.isi-list {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+    padding: 10px 0;
+}
+
+.title-footer {
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 1px;
+    color: #FFFFFF;
+}
+
+/* END FOOTER */
+
+/* RESPONSIVE */
+@media (min-width: 992px) and (max-width: 1000px) {
+    .rri {
+        max-width: 995px;
+    }
+    .nav-menu, .nav-link {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 15px;
+        color: #FFFFFF;
+        margin: 0;
+    }
+    .nav-darkBlue, .nav-softBlue {
+        max-width: 1000px;
+    }
+    .nav-menu {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        color: #FFFFFF;
+    }
+    .banner {
+        background-position: center;
+        max-width: 920px;
+    }
+    .text {
+        position: absolute;
+        bottom: 0;
+        margin: 0px 0px;
+    }
+    .box-title {
+        position: absolute;
+        height: 24px;
+        width: 920px;
+        background-color: #FFFFFF;
+        padding: 0 5px;
+    }
+    .stream,
+    .net,
+    .sinar,
+    .music {
+        height: 45px;
+    }
+    .list-article {
+        max-width: 995px;
+        margin: 10px 15px 10px 10px;
+    }
+    footer {
+        bottom: 0;
+    }
+}
+/* END RESPONSIVE */
